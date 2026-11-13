@@ -1,10 +1,18 @@
-img {
+#main-image {
     width: 200px;
 }
 
 body {
-    text-align: center;
     font-family: 'Arial';
     background: beige;
     color: blue;
+}
+
+#header {
+    text-align: left;
+    background: white;
+}
+
+#content {
+    text-align: right;
 }
