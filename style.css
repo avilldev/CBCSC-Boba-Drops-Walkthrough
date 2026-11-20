@@ -3,6 +3,8 @@
     --popup-matcha-color: rgb(150, 191, 83);
     --dark-matcha-color: rgb(72, 83, 54);
     --creme-white: rgb(250, 249, 241);
+    --light-sakura-pink: #FFB7C5;
+    --dark-sakura-pink: #d45f77;
 }
 
 #main-image {
@@ -34,4 +36,11 @@ body {
     color: black;
     width: 50%;
     padding: 20px;
+}
+
+a {
+    color: var(--dark-sakura-pink);
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-style: wavy;
 }
